@@ -2,14 +2,14 @@
 
 An end-to-end Business Intelligence solution developed in Power BI to analyze global financial transactions, optimize profit margins, and deliver actionable strategic insights for corporate decision-makers.
 
- Table of Contents
+ **Table of Contents**
 * [Project Overview](#-project-overview)
 * [Tools & Skills Used](#%EF%B8%8F-tools--skills-used)
 * [Dataset Structure](#%F0%9F%93%8A-dataset-structure)
 * [Project Screenshots & Architecture](#-project-screenshots--architecture)
-* [Phase 1 — Data Import & Cleaning with Power Query](#phase-1--data-import--cleaning-with-power-query)
-* [Phase 2 — Data Modeling & Workspace View](#phase-2--data-modeling--workspace-view)
-* [Phase 3 — Explicit DAX Measures Engine](#phase-3--explicit-dax-measures-engine)
+* [Phase 1 — Data Import & Cleaning with Power Query](#phase-1-—-data-import--cleaning-with-power-query)
+* [Phase 2 — Data Modeling & Workspace View](#phase-2-—-data-modeling--workspace-view)
+* [Phase 3 — Explicit DAX Measures Engine](#phase-3-—-explicit-dax-measures-engine)
 * [Key Business Insights](#-key-business-insights)
 * [Author](#-author)
 
@@ -46,16 +46,13 @@ This project demonstrates the development of an enterprise-grade financial analy
 *The core visual layout optimized for high scannability, structural spacing, and professional color composition.*
 <img width="697" height="391" alt="Screenshot 2026-06-23 105210" src="https://github.com/user-attachments/assets/8a6c3f5e-a691-479c-883b-103daa401a2b" />
 
-
 ### 2. Backend Table View & DAX Engine
 *The isolated report backend where structural table formats are verified and performance measures are computed.*
 <img width="960" height="600" alt="Screenshot 2026-06-23 105524" src="https://github.com/user-attachments/assets/763a4093-6a13-4044-a506-51e310e0a8e8" />
 
-
 ### 3. Structural Data Model View
 *The operational workspace displaying backend table schema structures and entity architectures inside Power BI.*
 <img width="960" height="600" alt="Screenshot 2026-06-23 110311" src="https://github.com/user-attachments/assets/ff2b2ae3-8389-442b-be8c-64ef4323f7c7" />
-
 
 ---
 
@@ -65,12 +62,12 @@ This project demonstrates the development of an enterprise-grade financial analy
 3. Evaluated relational schemas and removed system-level operational noise columns.
 4. Capitalized text categories, standardized numerical precisions, and ran data profiling checks before pushing to data tables.
 
-## Phase 2 — Data Modeling & Workspace View
+##  Phase 2 — Data Modeling & Workspace View
 * Structured the single-table operational workspace schema inside the Model View workspace.
 * Configured column aggregation properties and verified implicit date dimensions mapping.
 * Optimized field formatting parameters to guarantee that any visual slicer interaction instantly updates global visuals without lagging.
 
-## Phase 3 — Explicit DAX Measures Engine
+##  Phase 3 — Explicit DAX Measures Engine
 Rather than relying on default implicit aggregations, I engineered explicit DAX logic layers from scratch to secure analytical control:
 
 ```dax
@@ -83,9 +80,7 @@ Total Profit = SUM('financials'[Profit])
 // Pixel-Perfect Multi-Tiered Profit Margin Evaluation Ratio
 Profit Margin (%) = DIVIDE([Total Profit], [Total Sales], 0)
 
----
-
-## 👤 Author
+## Author
 * **Name:** Ujjawal Kumar Sah
 * **Role:** Final-Year BCA Student | Aspiring Data Analyst
-* **Connect on LinkedIn:** [https://www.linkedin.com/in/ujjawal-kumar-sah-a472b43ab/]
+* **Connect on LinkedIn:** [Ujjawal Kumar Sah](https://www.linkedin.com/in/ujjawal-kumar-sah-a472b43ab/)
