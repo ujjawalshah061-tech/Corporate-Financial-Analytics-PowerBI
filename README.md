@@ -44,15 +44,18 @@ This project demonstrates the development of an enterprise-grade financial analy
 
 ### 1. Interactive Executive Dashboard Visuals
 *The core visual layout optimized for high scannability, structural spacing, and professional color composition.*
-![Dashboard Visuals](./1_Dashboard_Visuals.png)
+<img width="697" height="391" alt="Screenshot 2026-06-23 105210" src="https://github.com/user-attachments/assets/8a6c3f5e-a691-479c-883b-103daa401a2b" />
+
 
 ### 2. Backend Table View & DAX Engine
 *The isolated report backend where structural table formats are verified and performance measures are computed.*
-![Data and DAX View](./2_Data_Calculations.png)
+<img width="960" height="600" alt="Screenshot 2026-06-23 105524" src="https://github.com/user-attachments/assets/763a4093-6a13-4044-a506-51e310e0a8e8" />
+
 
 ### 3. Structural Data Model View
 *The operational workspace displaying backend table schema structures and entity architectures inside Power BI.*
-![Model Schema](./3_Model_Schema.png)
+<img width="960" height="600" alt="Screenshot 2026-06-23 110311" src="https://github.com/user-attachments/assets/ff2b2ae3-8389-442b-be8c-64ef4323f7c7" />
+
 
 ---
 
