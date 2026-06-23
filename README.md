@@ -1,30 +1,30 @@
-# Corporate Financial Performance Analytics Dashboard 📈💼
+# Corporate Financial Performance Analytics Dashboard 
 
 An end-to-end Business Intelligence solution developed in Power BI to analyze global financial transactions, optimize profit margins, and deliver actionable strategic insights for corporate decision-makers.
 
-📌 **Table of Contents**
+ **Table of Contents**
 * [Project Overview](#-project-overview)
 * [Tools & Skills Used](#%EF%B8%8F-tools--skills-used)
 * [Dataset Structure](#%F0%9F%93%8A-dataset-structure)
 * [Project Screenshots & Architecture](#-project-screenshots--architecture)
-* [Phase 1 — Data Import & Cleaning with Power Query](#phase-1-—-data-import--cleaning-with-power-query)
-* [Phase 2 — Data Modeling & Workspace View](#phase-2-—-data-modeling--workspace-view)
-* [Phase 3 — Explicit DAX Measures Engine](#phase-3-—-explicit-dax-measures-engine)
+* [Phase 1 — Data Import & Cleaning](#-phase-1---data-import--cleaning-with-power-query)
+* [Phase 2 — Data Modeling](#-phase-2---data-modeling--workspace-view)
+* [Phase 3 — Explicit DAX Measures Engine](#-phase-3---explicit-dax-measures-engine)
 * [Key Business Insights](#-key-business-insights)
 * [Author](#-author)
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 This project demonstrates the development of an enterprise-grade financial analytics asset. Starting with raw financial transaction records, I built a fully interactive dashboard in Power BI that allows executives to:
 * Monitor **Total Sales, Gross Revenue, and Bottom-line Net Profits** instantly.
-* Evaluate the health of the business via a dynamic **Profit Margin (%)** tracking engine.
+* Evaluate business health via a dynamic **Profit Margin (%)** tracking engine.
 * Break down performance across global territories, market segments, and product lines.
 * Filter all report visuals seamlessly using interactive slicers.
 
 ---
 
-## 🛠️ Tools & Skills Used
+##  Tools & Skills Used
 * **Power BI Desktop:** Core engine for reporting, data engineering, and visualization layouts.
 * **Power Query Editor:** Advanced ETL process, structural anomalies cleanup, and data type management.
 * **Data Modeling:** Tabular data schema workspace structuring for optimized report filtering performance.
@@ -33,14 +33,14 @@ This project demonstrates the development of an enterprise-grade financial analy
 
 ---
 
-## 📊 Dataset Structure
+##  Dataset Structure
 * **Source:** Corporate Financial Transaction Logs
 * **Core Granularity:** Line-item transaction records mapping international business operations.
 * **Key Fields Managed:** Segment, Country, Product, Discount Band, Units Sold, Manufacturing Price, Sale Price, Gross Sales, Discounts, Sales, COGS (Cost of Goods Sold), Profit, Date, Month Number, Month Name, Year.
 
 ---
 
-## 📸 Project Screenshots & Architecture
+##  Project Screenshots & Architecture
 
 ### 1. Interactive Executive Dashboard Visuals
 *The core visual layout optimized for high scannability, structural spacing, and professional color composition.*
@@ -56,18 +56,18 @@ This project demonstrates the development of an enterprise-grade financial analy
 
 ---
 
-## ⚙️ Phase 1 — Data Import & Cleaning with Power Query
+##  Phase 1 — Data Import & Cleaning with Power Query
 1. Loaded raw transaction data files into the **Power BI Power Query Engine**.
 2. Inspected structural integrity and synchronized data types across all functional blocks (Dates, Integers, Decimals).
 3. Evaluated relational schemas and removed system-level operational noise columns.
 4. Capitalized text categories, standardized numerical precisions, and ran data profiling checks before pushing to data tables.
 
-## 🧱 Phase 2 — Data Modeling & Workspace View
+##  Phase 2 — Data Modeling & Workspace View
 * Structured the single-table operational workspace schema inside the Model View workspace.
 * Configured column aggregation properties and verified implicit date dimensions mapping.
 * Optimized field formatting parameters to guarantee that any visual slicer interaction instantly updates global visuals without lagging.
 
-## 🧮 Phase 3 — Explicit DAX Measures Engine
+##  Phase 3 — Explicit DAX Measures Engine
 Rather than relying on default implicit aggregations, I engineered explicit DAX logic layers from scratch to secure analytical control:
 
 ```dax
@@ -79,9 +79,19 @@ Total Profit = SUM('financials'[Profit])
 
 // Pixel-Perfect Multi-Tiered Profit Margin Evaluation Ratio
 Profit Margin (%) = DIVIDE([Total Profit], [Total Sales], 0)
+```
+
 ---
 
-## 👤 Author
+##  Key Business Insights
+* **Revenue Dynamics:** Generated **$23.51M in Total Sales**, maintaining a solid **15.66% overall Profit Margin**.
+* **Segment Dominance:** Institutional procurement fuels the revenue engine—**Government and Small Business** sectors control nearly **80% of total transactional scale**.
+* **Seasonal Demand Peaks:** Q4 operations showcase heavy activity bursts across **October and December**, exposing key opportunities for targeted marketing campaigns.
+* **Discount Efficiency:** Monitored a significant **$1.42M promotional discount distribution matrix** to prevent the erosion of net core margins.
+
+---
+
+##  Author
 * **Name:** Ujjawal Kumar Sah
 * **Role:** Final-Year BCA Student | Aspiring Data Analyst
-* **Connect on LinkedIn:** [Ujjawal Kumar Sah](https://www.linkedin.com/in/ujjawal-kumar-sah-a472b43ab/)
+* **LinkedIn:** [Connect on LinkedIn](https://linkedin.com) *(https://www.linkedin.com/in/ujjawal-kumar-sah-a472b43ab/)*
