@@ -1,4 +1,4 @@
-# Corporate Financial Performance Analytics Dashboard 📈💼
+# Corporate Financial Performance Analytics Dashboard 📈
 
 An end-to-end Business Intelligence solution developed in Power BI to analyze global financial transactions, optimize profit margins, and deliver actionable strategic insights for corporate decision-makers.
 
